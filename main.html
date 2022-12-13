@@ -9,30 +9,32 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h2>Job App Form</h2>
-	<form action="https://www.w3schools.com/tags/tag_select.asp" method="post" target="_blank">
-		<label for="name" ><Name>Name</Name></label><br>
-		<input type="name" id="#name" required><br><br>
-		<label for="email"><Email>Email</Email></label><br>
-		<input type="email" id="#email" required><br><br>
-		<label for="gender" ><gender>Gender</gender></label>
-		<input type="radio" name="gender" required>
-		<label for="male">Male</label>
-		<input type="radio" name="gender" required>
-		<label for="female">Female</label><br><br>
+	<form action= "#" method="post" target="_blank">
+		<label for="portfolio">portfolio</label>
+		<input type="url" id="portfolio" name="portfolio">
+		<label for="name">Name</label><br>
+		<input type="text" id="name" required><br><br>
+		<label for="email">Email</label><br>
+		<input type="email" id="email" required><br><br>
+		<label for="gender" >Gender</label>
+		<input type="radio" name="gender" value="male"required>
+		
+		<input type="radio" name="gender" required value="female">
+		
 		<label for="brand">Laptop Brands
-			<select name="laptops" id="#laptop" value="Choose Brand">
+			<select name="laptops" id="laptop">
 				<option value="Apple">Apple</option>
 				<option value="asus">Asus</option>
 				<option value="hp">HP</option>
 			</select>
 		</label><br><br>
-		<label for="age"><age>Age</age></label><br>
-		<input type="number" id="#age" required><br><br>
-		<label for="date"><DOB>DOB</DOB></label><br>
-		<input type="date" id="#dob" required><br><br>
-		<label for="pasword"><Password>Password</Password></label><br>
-		<input type="password" id="#password" required><br><br><br>
-		<input type="submit" value="Submit">
+		<label for="age">Age</label><br>
+		<input type="number" id="age" name="age" required><br><br>
+		<label for="date">DOB</label><br>
+		<input type="date" id="dob" required><br><br>
+		<label for="pasword">Password</label><br>
+		<input type="password" id="password" required><br><br><br>
+       <button type="submit">Submit</button>
 
 
 	</form>
